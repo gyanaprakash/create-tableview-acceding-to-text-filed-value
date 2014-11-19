@@ -10,10 +10,11 @@
 		96965D1F19F28BB300DE4552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96965D1E19F28BB300DE4552 /* main.m */; };
 		96965D2219F28BB300DE4552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96965D2119F28BB300DE4552 /* AppDelegate.m */; };
 		96965D2519F28BB300DE4552 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96965D2419F28BB300DE4552 /* ViewController.m */; };
-		96965D2819F28BB300DE4552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96965D2619F28BB300DE4552 /* Main.storyboard */; };
 		96965D2A19F28BB300DE4552 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96965D2919F28BB300DE4552 /* Images.xcassets */; };
 		96965D2D19F28BB300DE4552 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96965D2B19F28BB300DE4552 /* LaunchScreen.xib */; };
 		96965D3919F28BB300DE4552 /* omnamhasibayaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96965D3819F28BB300DE4552 /* omnamhasibayaTests.m */; };
+		96965D4319F28CFA00DE4552 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96965D4219F28CFA00DE4552 /* Accelerate.framework */; };
+		96E71A6719F2943B00052148 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96E71A6619F2943B00052148 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,13 @@
 		96965D2119F28BB300DE4552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		96965D2319F28BB300DE4552 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		96965D2419F28BB300DE4552 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		96965D2719F28BB300DE4552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96965D2919F28BB300DE4552 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96965D2C19F28BB300DE4552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		96965D3219F28BB300DE4552 /* omnamhasibayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omnamhasibayaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96965D3719F28BB300DE4552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96965D3819F28BB300DE4552 /* omnamhasibayaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omnamhasibayaTests.m; sourceTree = "<group>"; };
+		96965D4219F28CFA00DE4552 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		96E71A6619F2943B00052148 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96965D4319F28CFA00DE4552 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		96965D1019F28BB300DE4552 = {
 			isa = PBXGroup;
 			children = (
+				96965D4219F28CFA00DE4552 /* Accelerate.framework */,
 				96965D1B19F28BB300DE4552 /* omnamhasibaya */,
 				96965D3519F28BB300DE4552 /* omnamhasibayaTests */,
 				96965D1A19F28BB300DE4552 /* Products */,
@@ -85,7 +89,7 @@
 				96965D2119F28BB300DE4552 /* AppDelegate.m */,
 				96965D2319F28BB300DE4552 /* ViewController.h */,
 				96965D2419F28BB300DE4552 /* ViewController.m */,
-				96965D2619F28BB300DE4552 /* Main.storyboard */,
+				96E71A6619F2943B00052148 /* ViewController.xib */,
 				96965D2919F28BB300DE4552 /* Images.xcassets */,
 				96965D2B19F28BB300DE4552 /* LaunchScreen.xib */,
 				96965D1C19F28BB300DE4552 /* Supporting Files */,
@@ -199,8 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96965D2819F28BB300DE4552 /* Main.storyboard in Resources */,
 				96965D2D19F28BB300DE4552 /* LaunchScreen.xib in Resources */,
+				96E71A6719F2943B00052148 /* ViewController.xib in Resources */,
 				96965D2A19F28BB300DE4552 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96965D2619F28BB300DE4552 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96965D2719F28BB300DE4552 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		96965D2B19F28BB300DE4552 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +344,7 @@
 				INFOPLIST_FILE = omnamhasibaya/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,6 +355,7 @@
 				INFOPLIST_FILE = omnamhasibaya/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -414,6 +412,7 @@
 				96965D3E19F28BB300DE4552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96965D3F19F28BB300DE4552 /* Build configuration list for PBXNativeTarget "omnamhasibayaTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +421,7 @@
 				96965D4119F28BB300DE4552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
